@@ -16,7 +16,7 @@ const PizzaSchema = new Schema({
         type: String,
         default: 'Large'
     },
-    topping: []
+    toppings: []
 });
 
 // create the Pizza model using the PizzaSchema
